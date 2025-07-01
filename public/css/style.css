@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo-Light.woff2") format("woff2"),
+        url("../fonts/Cairo-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo-Regular.woff2") format("woff2"),
+        url("../fonts/Cairo-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo-SemiBold.woff2") format("woff2"),
+        url("../fonts/Cairo-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo-Black.woff2") format("woff2"),
+        url("../fonts/Cairo-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo-Bold.woff2") format("woff2"),
+        url("../fonts/Cairo-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Cairo";
+    src: url("../fonts/Cairo-ExtraLight.woff2") format("woff2"),
+        url("../fonts/Cairo-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    direction: rtl;
+    font-family: "cairo", "sans-serif";
+}
+.login-body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+.password-toggle {
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 72%;
+    transform: translateY(-50%);
+}
+
+.bg-primary {
+    background-color: rgb(41, 40, 40) !important;
+}
+
+.doc-box img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
